@@ -1,61 +1,36 @@
-# Hi, I'm Álvaro!
+# Álvaro M. Guiñón
 
-**Web & Software Developer (Java · Spring Boot · Angular · Python)**  
-*7 years leading digital product & technical teams — now building the software myself.*
+Web developer focused on Java, Spring Boot, and Angular.
 
-[![Portfolio ES](https://img.shields.io/badge/guinon.dev-Espa%C3%B1ol-174e70?style=flat-square)](https://guinon.dev/es/)
-[![Portfolio EN](https://img.shields.io/badge/guinon.dev-English-174e70?style=flat-square)](https://guinon.dev/en/)
-[![Portfolio FR](https://img.shields.io/badge/guinon.dev-Fran%C3%A7ais-174e70?style=flat-square)](https://guinon.dev/fr/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%C3%81lvaro_M._Gui%C3%B1%C3%B3n-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alvaroguinon/)
-[![Email](https://img.shields.io/badge/Email-alvaroguinon%40outlook.com-20252b?style=flat-square)](mailto:alvaroguinon@outlook.com)
+After seven years working in digital media and product at GAMETV (Movistar eSports), where I coordinated development teams, technical vendors, analytics, and site migrations, I moved into software development. Between 2022 and 2025 I completed a Higher National Diploma in Web Application Development (DAW) while working full-time, followed by a full-stack internship at Integra Consultores. I am currently studying a B.Sc. in Computer Engineering at UOC (132/240 ECTS) to go further into software architecture and data analysis.
 
-> **I used to define the roadmap, coordinate the dev teams, and audit the metrics. Now I write the code, design the API contracts, and build the systems.**
+I live in Rion-des-Landes (France) and am looking to join a development team in France, Spain, or European remote.
 
-<details>
-<summary>🇫🇷 <strong>En bref (Français)</strong> — Cliquez pour dérouler</summary>
-<br>
-Après 7 ans dans le produit digital et les médias (dont <em>Head of Digital Product</em> pour Movistar eSports), j’ai obtenu un <strong>BTS Développeur d’Applications Web (DAW)</strong> tout en travaillant à temps plein et je poursuis actuellement une <strong>Licence d’Ingénierie Informatique</strong> (plus de 50 % validée). Basé dans les Landes (France), je cherche à rejoindre une équipe de développement (<strong>Java / Spring Boot / Angular</strong> ou <strong>Python / Data</strong>) en France, en Espagne ou en télétravail européen. 👉 <a href="https://guinon.dev/fr/">Voir mon CV complet sur guinon.dev/fr</a>.
-</details>
+Portfolio & CV: [guinon.dev](https://guinon.dev/en/) ([Español](https://guinon.dev/es/) · [Français](https://guinon.dev/fr/)) · [LinkedIn](https://www.linkedin.com/in/alvaroguinon/) · [alvaro@guinon.dev](mailto:alvaro@guinon.dev)
 
-<details>
-<summary>🇪🇸 <strong>En resumen (Español)</strong> — Haz clic para desplegar</summary>
-<br>
-Tras 7 años liderando producto digital, analítica y equipos en GAMETV (Movistar eSports), completé el ciclo superior de <strong>Desarrollo de Aplicaciones Web (DAW)</strong> compaginándolo con mi trabajo a jornada completa y actualmente curso <strong>Ingeniería Informática en la UOC</strong> (>50 % superado). Soy un desarrollador junior con experiencia sólida al otro lado de la barrera. Busco equipo en Francia, España o remoto europeo. 👉 <a href="https://guinon.dev/es/">Ver mi CV completo en guinon.dev/es</a>.
-</details>
+## Selected projects
 
----
+### [ChooseTheName](https://github.com/alguimo/choosethename)
 
-### Why my background is a bit different
+Collaborative web application for proposing names in a group and choosing one through elimination voting rounds. I built the Spring Boot API from an OpenAPI contract, schema migrations with Flyway, MapStruct DTOs, JWT authentication, the Angular frontend, and unit, integration, and RestAssured functional tests running on GitHub Actions.
 
-Most junior developers discover product constraints, legacy code, and business KPIs *after* their first dev job. I started there:
+*Java 17 · Spring Boot 3 · Angular 17 · PostgreSQL · Docker*
 
-- **7 years on the product side** at **GAMETV (Movistar eSports)** — from Managing Editor to **Head of Digital Product** and later **Independent Technology Consultant** (site migrations, maintainability audits, CMP/GDPR, technical SEO, and Looker Studio / GA4 reporting).
-- **Trained for the post-AI engineering era** — I completed my **Higher National Diploma in Web Application Development (DAW)** while working full-time, followed by a Full-Stack internship (Java / Spring Boot / Angular). Now I'm over halfway through a **B.Sc. in Computer Engineering (132/240 ECTS)** to deepen my foundation in software architecture and data.
-- **Spec-first & test-minded** — I care about clear contracts (`OpenAPI`), repeatable database migrations (`Flyway`), decoupled layers, and tests that validate business workflows.
+### [Convertisseur WEDA](https://github.com/alguimo/xml-parser)
 
----
+Desktop utility that converts XML/ZIP patient exports from the French medical software WEDA into two-column A4 PDF reports in French, processing archives in memory without writing patient data to disk. It supports manual drag-and-drop and watched-folder conversion from the Windows system tray, and ships as an Inno Setup installer with SHA-256 verified background updates via GitHub Releases.
 
-### Tech Stack
+*Python · CustomTkinter · lxml · BeautifulSoup4 · ReportLab · PyInstaller*
 
-- **Backend:** Java 17 · Spring Boot 3 · Spring Data JPA / Hibernate · MapStruct · REST / OpenAPI · PHP 8 · Node.js / Express
-- **Frontend:** Angular 17 · TypeScript · Astro · HTML / CSS
-- **Data & Scripting:** Python (`pandas`, `numpy`, `scipy`, `lxml`, `BeautifulSoup4`, `ReportLab`) · SQL (PostgreSQL / MariaDB) · R (foundations)
-- **DevOps & Product:** Docker & Docker Compose · Flyway · GitHub Actions · Technical SEO · Analytics & GDPR/CMP
+### [Cooperativa](https://github.com/alguimo/cooperativa)
 
----
+Maintenance and deployment work on an existing agricultural cooperative website. I migrated broken transactional email from Nodemailer to Resend, added honeypot and language-based spam filtering, built an interactive product catalog with label zoom, and configured deployment and DNS on Railway.
 
-### Selected Repositories
+*Node.js · Express · Resend · Railway*
 
-| Project | Stack | What it solves |
-| :--- | :--- | :--- |
-| **[ChooseTheName](https://github.com/alguimo/choosethename)** | `Java 17` `Spring Boot 3` `Angular 17` `Docker` | Collaborative voting app built with **Spec-Driven Development** (`OpenAPI`), `Flyway` migrations, and JWT auth. |
-| **[Convertisseur WEDA](https://github.com/alguimo/xml-parser)** | `Python` `lxml` `BS4` `ReportLab` | Desktop pipeline turning escaped-HTML medical XML exports into clean, paginated PDF reports in memory. |
-| **[Data Analysis with Python](https://github.com/alguimo/data-analysis-with-python-fcc)** | `Python` `Pandas` `NumPy` `SciPy` | 5 unit-tested data pipelines across 102,000+ census, medical, and time-series records. |
-| **[Cooperativa](https://github.com/alguimo/cooperativa)** | `Node.js` `Express` `Resend` `Railway` | Legacy system stabilization: transactional email migration, language-based anti-spam, and cloud deployment. |
-| **[RSVP](https://github.com/alguimo/RSVP)** | `PHP 8` `PDO` `MariaDB` `Docker` | Dual-portal event management app (organizers & guests) containerized with Docker Compose. |
+## Stack and languages
 
----
-
-📍 **Rion-des-Landes, France** · Open to roles in **France, Spain, or European remote**  
-🗣️ **Spanish** (Native) · **Catalan** (C1) · **English** (B2) · **French** (B2)  
-🌐 Full CV & story: **[guinon.dev](https://guinon.dev)**
+- **Main stack:** Java, Spring Boot, SQL (PostgreSQL, MariaDB), JPA / Hibernate, Angular, TypeScript, Astro, HTML/CSS, Docker, Git.
+- **Data and scripting (ongoing training):** Python (pandas, NumPy, SciPy, lxml, BeautifulSoup4, ReportLab) and foundations of R and statistics.
+- **Previous product and web work:** Technical and editorial SEO, audience analytics (GA4, Looker Studio), CMP / GDPR, WordPress, Node.js, PHP.
+- **Languages:** Spanish (native), Catalan (C1), English (B2), French (B2).
